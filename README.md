@@ -43,7 +43,7 @@ Clone the Sentinel repo and install Python dependencies.
     apt-get update && \
     apt-get -y install python-virtualenv && \
     cd /opt && \
-    git clone https://github.com/combode-project/combode-sentinel combode-sentinel && \
+    git clone https://github.com/combode/combode-sentinel combode-sentinel && \
     cd combode-sentinel && \
     virtualenv ./venv && \
     ./venv/bin/pip install -r requirements.txt
